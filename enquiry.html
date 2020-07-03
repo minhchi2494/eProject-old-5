@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <style>
+        #button-register {
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: 600;
+            width: 100%;
+            background: -webkit-gradient(linear,
+                    left top,
+                    right top,
+                    from(#eb3c5a),
+                    to(#f67831));
+            background: -o-linear-gradient(left, #eb3c5a, #f67831);
+            background: linear-gradient(to right, #eb3c5a, #f67831);
+            border: none;
+            padding: 12px 0;
+            cursor: pointer;
+            margin-top: 30px;
+            width: 20%;
+            margin-bottom: 1em;
+        }
+
+        input[type=text],
+        input[type=email] {
+            background: #f1f1f1;
+            padding: 25px;
+            margin: 5px 0 22px 0;
+
+        }
+
+        input[type=text]:focus,
+        input[type=email]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+
+            <nav class="navbar">
+                <div id="navbar">
+                    <ul class="nav">
+                        <li> <a href="index.html">Home</a> </li>
+                        <div id="classes">
+                            <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href=""
+                                    id="btn1">Services <span class="caret"></span> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="cycling.html">Cycling</a></li>
+                                    <li><a href="swimming.html">Swimming</a></li>
+                                    <li><a href="sportsvsfitness.html">Sports & Fitness</a></li>
+                                    <li><a href="groupexercise.html">Group Exercise</a></li>
+                                    <li><a href="salonspa.html">Salon & Spa</a></li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <li><a href="equipment.html">Equipment</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li> <a href="FAQ.html">FAQs</a></li>
+                        <li> <a href="enquiry.html">Enquiry Form</a></li>
+                        <li> <a href="membership.html">Membership</a></li>
+                        <li> <a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="mobile-menu-wrap"></div>
+            <div class="clear-both"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg" data-setbg="img/enquiry_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Enquiry Form</h2>
+                        <div class="breadcrumb-option">
+                            <a href="index.html"><i class="fa fa-home"></i> Home</a>
+                            <span>Enquiry Form</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Enquiry Form Start -->
+    <div class="container">
+        <div class="row" style="margin-top: 3em;">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h1>MEMBERSHIP ENQUIRY</h1>
+                    <p></p>
+                    <h3>Thinking about joining? We’ve a range of membership options to suit everyone.
+                        You’ll always find an activity to meet your fitness needs! </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row">
+        <div class="col-lg-2"></div>
+
+        <div class="col-lg-8" id="form-register">
+            <hr>
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname"><b>First Name</b></label>
+                    <input type="text" class="form-control" placeholder="Enter First Name" name="firstname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastname"><b>Last Name</b></label>
+                    <input type="text" class="form-control" placeholder="Enter Last Name" name="lastname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" class="form-control" placeholder="Enter Email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="text" class="form-control" placeholder="Enter Phone Number" name="phone" required>
+                </div>
+
+                <label for="membershiptype"><b>Membership Type:</b></label>
+                <br>
+                <select name="membershiptype" id="membershiptype">
+                    <option value="Basic">Basic</option>
+                    <option value="Standard">Standard</option>
+                    <option value="Prenium">Prenium</option>
+                </select>
+                <br> <br>
+
+                <label for="class"><b>Class:</b></label>
+                <br>
+                <select name="class" id="class">
+                    <option value="cycling">Cycling</option>
+                    <option value="swimming">Swimming</option>
+                    <option value="sportandfitness">Sport And Fitness</option>
+                    <option value="groupexercise">Group Exercise</option>
+                </select> <br> <br>
+
+                <label for="about"><b>About Your Enquiry:</b></label> <br>
+                <textarea name="about" id="about" cols="50" rows="5"></textarea>
+
+                <br>
+                <button type="submit" class="register-btn" id="button-register">Get Started</button>
+            </form>
+        </div>
+    </div>
+    <!-- Enquiry Form End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="contact-option">
+                        <span>Phone</span>
+                        <p>(123) 118 9999 - (123) 118 9999</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-option">
+                        <span>Address</span>
+                        <p>590 CMT8 Street District 3 Ho Chi Minh City</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-option">
+                        <span>Email</span>
+                        <p>primefitness@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-option">
+                <span>Site Map</span>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="index.html" style="color: white;">Home</a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="index.html" style="color: white;">Services</a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="equipment.html" style="color: white;">Equipment</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="gallery.html" style="color: white;">Gallery</a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="FAQ.html" style="color: white;">FAQs</a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="enquiry.html" style="color: white;">Enquiry Form</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="membership.html" style="color: white;">Membership</a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="contact.html" style="color: white;">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <p></p>
+            <div class="copyright-text">
+                <ul>
+                    <li><a href="#">Term & Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+
+                <p>
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> by Prime Fitness. All rights reserved
+                </p>
+                <p></p>
+
+                <div class="footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
